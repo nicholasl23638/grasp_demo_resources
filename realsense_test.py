@@ -36,8 +36,8 @@ try:
     depth_colormap = cv2.applyColorMap(cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET)
 
     # Save images
-    cv2.imwrite(os.path.join('CAMERA_DATA','color_image.png'), color_image)
-    cv2.imwrite(os.path.join('CAMERA_DATA', 'depth_image.png'), depth_colormap)
+    cv2.imwrite(os.path.join('CAMERA_DATA','color.png'), color_image)
+    cv2.imwrite(os.path.join('CAMERA_DATA', 'depth_image_color.png'), depth_colormap)
     cv2.imwrite(os.path.join('CAMERA_DATA', 'raw_depth.png'), depth_image)
     print("Saved color_image png and depth_image png")
 
