@@ -39,3 +39,4 @@ merge_test.py will pull intrinsics & input photo data from a target directory (s
 - Raw Depth: raw_depth.png
 - Treated depth: depth.png
 - Color: color.png
+- Camera Intrinsics: intrinsics.txt
